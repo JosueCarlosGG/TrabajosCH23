@@ -1,0 +1,46 @@
+tener previamente una variable con los datos que anteriormente dados como sueldos, precios, dias de vacaciones, etc
+
+*Calcular el sueldo base 
+tomar salario diario ($428) y multiplicarlo por el numero de dias trabajados si trabajo de lunes a sabado calculo semanal(428*6 = 2568 x semana) imprimir resultado de calculo semanal
+
+*calcular vacaciones proporcionales respecto a su antiguedad 
+una variable que  agregue 7 dias por cada año trabajado calculado por el dia que entro a trabajar
+
+*calcular la prima dominical en caso de que se trabaje el domingo
+al dia base ($428) se multiplica por (1.29) y daria el resultado del sueldo con prima dominical = 552.12
+
+*calcular el pago de horas extras
+agregar una variable de hora extra = $80
+y se multiplica por el numero de horas extras trabajadas en el dia
+
+*calcular bono de productividad
+tener una varible que detecte si ha trabajado mas de 28 dias en un mes en caso de que cumpla con esa condicion se multiplicara su sueldo x 1.15
+
+*calcular sueldo total antes de impuestos
+tomar el total de ingresos del empleado y guardarlo en una variable
+
+*calcular sueldo total despues de impuestos 
+tomar la variable donde se guardo el sueldo total antes de impuestos y multiplicarlo por 0.88 para quitar el impuesto a su sueldo
+
+*calcular el costo total de muñeca y payaso vendidos por pedido
+en este caso falta el dato de cuantas unidades se han vendido pero teniendo en cuenta eso seria multiplicar el precio por el numero de unidades vendidas 
+payaso ($220)* (numero de ventas de payaso)
+muñeca ($159)* (numero de ventas de muñeca)
+
+*calcular el peso total del pedido
+poner un input para saber el numero de unidades payaso con su respectivo peso( 135)
+poner un input para saber el numero de unidades muñeca con su respectivo peso( 200)
+y ese input se multiplica por el numero de unidades vendidas pero sin pasar de 2kg en caso de que pase de 2kg se enviara en otro paquete
+
+
+*calcular la cantidad de paquetes a enviar 
+con el anterior calculo donde se van sumando los pesos hasta llegar a menor o igual a 2 kg se iran en 1 paquete en caso de que se pase de peso, el excedente se ira en otro paquete y tomara en cuenta la misma condicion de por cada 2 kg 
+
+*calcular el descuento por promocion
+
+tomar en cuenta el calculo de cantidad de paquetes a envias sea mayor o igual a 2 paquetes enviados se agregara un descuento del 10% por lo tanto se hara una multiplicacion del total de la venta x .90 y ese sera el precio a pagar
+
+
+
+
+

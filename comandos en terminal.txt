@@ -1,0 +1,111 @@
+comando linux/ terminar
+ls - permite listar el contenido de una carpeta
+cd - salir de la carpeta 
+cd / - te saldras a la raiz en este caso c:}
+cd .. - para regresar en una carpeta
+mkdir - para crear una carpeta
+touch nombre.txt (o la extencion) - para crear archivos
+
+cat -  visualizar le contenido de un archivo
+echo > - permite agregar texto a un archivo
+rm - para eliminar un archivo
+rm -r  -borrar con archivos
+nano  -otro entorno
+notepad  -permite ver el archivo txt
+code  -permite abrir un archiv con un editor de codigo
+
+crear repositorio git desde 0
+git init -crear repositorio
+git status -estado del repositorio
+git add - para agregar un archivo epecifico
+git add -A o git add . -para agregar todo 
+git commit -m ""  -para agregar un comentario corto
+git log -para leer el commit con fecha y autor
+vincular el repositorio con github con los comandos que aparecen desde la pagina
+git push -para mandar los cambios al repositorio github
+
+para actualizar en git 
+ls   -para ver los archivos
+git code nombre   -abrir el editor de codigo
+cat   -visualizar le contenido de un archivo
+git status -estado del repositorio
+git add . -para pasar al staging area
+git commit  -para agregar un comentario largo desde editor
+git push
+
+desde github abrir pestana code (si soy administrador de equipo)
+abrir settings/collaborators/add people/copiar pending invite
+
+una vez dentro(invitado)
+boton verde que dice code copiar ruta
+crear nueva carpeta
+cd jalar carpeta nueva
+git clone (y pegar la ruta del boton verde code de git)**lo hace local**
+**hasta aqui ya tienes los archivos y estas dentro del proyecto**
+**no modificar en rama MAIN**
+cd entrar en carpeta
+git branch "nombre" -crear rama nueva
+git branch  -para revisar las ramas y la verde es en la que estas
+git checkout nombre  -cambiar de rama
+*una vez hecha la modificacion*
+git cat -para ver lo editado
+git status -para ver si modificaste
+git add .
+git commit -m "comentario + nombre"
+git log -para ver si el comentario se subio
+git status -corroborar que todo esta bien
+git push - para enviar a github
+(git push --set-upstream origin tarea00) para primera modificacion
+
+
+como administrador(despues de haber invitado)
+settings/branches/add branch protection rule/escribir main/requiere a pull request before merging/agregar 4 palomita de la sub rama/
+**despues de que acaben como invitado checar las branch nuevas que enviaron para ver sus modificaciones** desde github
+pull request  - para subir los archivos de los companeros
+merge /para aceptar y subir los archivos
+delete branch **solo si ya termino**
+
+
+
+
+
+
+
+
+
+
+carpeta de trabajo/staging area/repositorio
+
+
+examen de terminal, git y scrum
+
+scrum
+una metodologia agiles,
+es un guia para dar un plan sin pasos fijos para mejorar la eficiencia
+ 
+
+metodo cascada
+toma de requerimientos, diseño ,implementacion , verificacion y mantenimiento
+
+sprint
+ciclo de tiempo que dura aprox 1 mes 
+son ciclos para optimizar todos los recursos y herramientas en un metodo mas flexible y con mas comunicacion
+
+product owner
+es el representante del cliente dentro del equipo de trabajo para dar la mejor experiencia necesita muy buena comunicacion con ambas partes
+
+scrum master
+es el representante de asegurar que el scrum es entendido y realizado al asegurarse de que el equipo trabaja ajustandose a la teoria, practicas y reglas scrum
+
+equipo desarrollador
+se compone de las personas responsables de dar cumplimiento a los sprint, son un equipo autogestionado y organizado
+
+
+pedir ejemplos de feedback para entender bien 
+no tomarlo personal
+no discutir simplemente escuchar y entender el punto de vista
+agradecer el feedback
+
+
+
+

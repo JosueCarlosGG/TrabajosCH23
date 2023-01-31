@@ -1,0 +1,32 @@
+booleano
+indefinido
+numerico
+string
+
+= asignar
+== operador de igualdad poco estricto o debil
+=== operador de igualdad estricto tanto en tipo y valor
+
+Operadores aritméticos
++
+-
+*
+/
+Resto %
+
+Operadores de Relacionales
+
+>
+>= 
+<
+<=
+==
+=
+!=
+!=
+
+operadores logicos 
+
+AND	&&
+OR	||
+NOT	!
