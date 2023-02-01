@@ -1,0 +1,25 @@
+table,
+td {
+    border: 1px solid rgb(42, 16, 9);
+    
+}
+
+thead,
+tfoot {
+    background-color: rgb(83, 38, 17);
+    color: #97e3af;
+}
+body{
+    background-color:rgb(215, 250, 235);
+}
+h2{
+    color: rgb(130, 55, 8);
+}
+#categoria{
+    background-color:#97e3af
+}
+
+#total{
+    background-color: tomato;
+}
+
