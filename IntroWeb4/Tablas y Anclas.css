@@ -15,6 +15,9 @@ body{
 h2{
     color: rgb(130, 55, 8);
 }
+h3{
+    color: rgb(179, 26, 240);
+}
 #categoria{
     background-color:#97e3af
 }
@@ -22,4 +25,6 @@ h2{
 #total{
     background-color: tomato;
 }
-
+img{
+    max-width: 300px;
+}
