@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Cambio de Nombre</title>
+  </head>
+  <body style="background-color: skyblue;">
+    
+    <h1 id="saludo" style="text-align: center;">Hola</>
+    <button id="cambioNombre" style="background-color:rgb(232, 202, 35)" >Click para cambiar el nombre</button>
+    
+    <script>
+      let hola = document.getElementById("saludo");
+      let CambioDeNombre = document.getElementById("cambioNombre");
+      
+      CambioDeNombre.addEventListener("click", function() {
+        let nombre = prompt("Cual es tu nombre?");
+        if (nombre) {
+          hola.textContent = `Hola ${nombre}`;
+        }
+      });
+    </script>
+  </body>
+</html>
