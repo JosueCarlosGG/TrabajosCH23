@@ -10,6 +10,8 @@ class OperadoresAritmeticas{
 }
 
 //para el obj4
+//instancia con ese mismo metodo puedes llamar funciones dentro
+//como .sumar
 
 class OperadoresAritmeticas{
     numero0 = 5;

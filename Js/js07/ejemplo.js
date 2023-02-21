@@ -6,18 +6,18 @@ fetch("https://pokeapi.co/api/v2/pokemon/4")
 .then(response => response.json())
 //regularmente cuando tranformas la informacion te devuelve otra promesa 
 //a la que debes volver a usar el .then
-.then(datos =>{
+.then(data => {
 
  
-    console.log(datos);
+    console.log(data);
 })
 .catch(err=>console.log(err))
 
 
 
-//crear un template
+//crear un template utilizando Dom
     let element = document.getElementById('POKEMON1')
-    element.innerHTML = `<p>${datos.name}</p>`
+    element.innerHTML = `<p>${data.name}</p>`
    
 
     
